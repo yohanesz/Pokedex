@@ -64,5 +64,3 @@ Este é um projeto de Pokédex desenvolvido em JavaScript, HTML e CSS. Ele utili
 
 ---
 
-Feito com ❤ por [Yohanês](https://github.com/yohanesz).
-
