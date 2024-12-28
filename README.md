@@ -62,22 +62,7 @@ Este é um projeto de Pokédex desenvolvido em JavaScript, HTML e CSS. Ele utili
   - Clique em **Next** para ir para o próximo Pokémon.
   - Clique em **Prev** para voltar ao Pokémon anterior.
 
-## Melhorias Futuras
-
-- Exibição de mais detalhes sobre o Pokémon (tipos, habilidades, estatísticas, etc.).
-- Suporte a temas (claro e escuro).
-- Cache para melhorar a performance.
-- Implementação responsiva para dispositivos móveis.
-
-## Contribuições
-
-Contribuições são bem-vindas! Sinta-se à vontade para abrir uma [issue](https://github.com/seu-usuario/pokedex/issues) ou enviar um [pull request](https://github.com/seu-usuario/pokedex/pulls).
-
-## Licença
-
-Este projeto está licenciado sob a [MIT License](https://opensource.org/licenses/MIT).
-
 ---
 
-Feito com ❤ por [Seu Nome](https://github.com/seu-usuario).
+Feito com ❤ por [Yohanês](https://github.com/yohanesz).
 
