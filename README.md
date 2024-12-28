@@ -1,96 +1,83 @@
-Pokédex
+# Pokédex
 
-Este é um projeto de Pokédex desenvolvido em JavaScript, HTML e CSS. Ele utiliza a PokeAPI para buscar informações sobre Pokémons, incluindo nome, número e sprite animado. O usuário pode navegar entre Pokémons usando os botões Next e Prev ou buscar diretamente pelo nome ou ID de um Pokémon.
+Este é um projeto de Pokédex desenvolvido em JavaScript, HTML e CSS. Ele utiliza a [PokeAPI](https://pokeapi.co/) para buscar informações sobre Pokémons, incluindo nome, número e sprite animado. O usuário pode navegar entre Pokémons usando os botões **Next** e **Prev** ou buscar diretamente pelo nome ou ID de um Pokémon.
 
-Funcionalidades
+## Funcionalidades
 
-Busca de Pokémons por ID ou nome.
+- Busca de Pokémons por ID ou nome.
+- Exibição de informações como:
+  - Nome do Pokémon
+  - Número do Pokémon
+  - Sprite animado (quando disponível)
+- Navegação entre Pokémons utilizando os botões **Next** e **Prev**.
+- Mensagem de erro caso o Pokémon não seja encontrado.
 
-Exibição de informações como:
+## Tecnologias Utilizadas
 
-Nome do Pokémon
+- **HTML**: Marcação da interface.
+- **CSS**: Estilização da Pokédex.
+- **JavaScript**: Lógica do funcionamento da Pokédex.
+- **[PokeAPI](https://pokeapi.co/)**: API para busca de informações sobre Pokémons.
 
-Número do Pokémon
+## Como Executar o Projeto
 
-Sprite animado (quando disponível)
+1. Clone o repositório:
+   ```bash
+   git clone https://github.com/seu-usuario/pokedex.git
+   ```
 
-Navegação entre Pokémons utilizando os botões Next e Prev.
+2. Navegue até o diretório do projeto:
+   ```bash
+   cd pokedex
+   ```
 
-Mensagem de erro caso o Pokémon não seja encontrado.
+3. Abra o arquivo `index.html` no navegador para visualizar o projeto.
 
-Tecnologias Utilizadas
+## Estrutura do Projeto
 
-HTML: Marcação da interface.
-
-CSS: Estilização da Pokédex.
-
-JavaScript: Lógica do funcionamento da Pokédex.
-
-PokeAPI: API para busca de informações sobre Pokémons.
-
-Como Executar o Projeto
-
-Clone o repositório:
-
-git clone https://github.com/seu-usuario/pokedex.git
-
-Navegue até o diretório do projeto:
-
-cd pokedex
-
-Abra o arquivo index.html no navegador para visualizar o projeto.
-
-Estrutura do Projeto
-
+```
 ├── index.html
 ├── style.css
 ├── script.js
 └── README.md
+```
 
-index.html: Estrutura principal da aplicação.
+- `index.html`: Estrutura principal da aplicação.
+- `style.css`: Estilos da Pokédex.
+- `script.js`: Lógica em JavaScript para busca e renderização dos Pokémons.
+- `README.md`: Documentação do projeto.
 
-style.css: Estilos da Pokédex.
+## Uso
 
-script.js: Lógica em JavaScript para busca e renderização dos Pokémons.
+1. Ao abrir a Pokédex, o primeiro Pokémon (ID 1) é exibido automaticamente.
+2. Use o campo de busca para procurar um Pokémon pelo nome ou ID.
+3. Utilize os botões **Prev** e **Next** para navegar entre Pokémons.
 
-README.md: Documentação do projeto.
+## Exemplos
 
-Uso
+- Para buscar o Pikachu:
+  - Digite `pikachu` no campo de busca e pressione **Enter**.
 
-Ao abrir a Pokédex, o primeiro Pokémon (ID 1) é exibido automaticamente.
+- Para navegar:
+  - Clique em **Next** para ir para o próximo Pokémon.
+  - Clique em **Prev** para voltar ao Pokémon anterior.
 
-Use o campo de busca para procurar um Pokémon pelo nome ou ID.
+## Melhorias Futuras
 
-Utilize os botões Prev e Next para navegar entre Pokémons.
+- Exibição de mais detalhes sobre o Pokémon (tipos, habilidades, estatísticas, etc.).
+- Suporte a temas (claro e escuro).
+- Cache para melhorar a performance.
+- Implementação responsiva para dispositivos móveis.
 
-Exemplos
+## Contribuições
 
-Para buscar o Pikachu:
+Contribuições são bem-vindas! Sinta-se à vontade para abrir uma [issue](https://github.com/seu-usuario/pokedex/issues) ou enviar um [pull request](https://github.com/seu-usuario/pokedex/pulls).
 
-Digite pikachu no campo de busca e pressione Enter.
+## Licença
 
-Para navegar:
+Este projeto está licenciado sob a [MIT License](https://opensource.org/licenses/MIT).
 
-Clique em Next para ir para o próximo Pokémon.
+---
 
-Clique em Prev para voltar ao Pokémon anterior.
+Feito com ❤ por [Seu Nome](https://github.com/seu-usuario).
 
-Melhorias Futuras
-
-Exibição de mais detalhes sobre o Pokémon (tipos, habilidades, estatísticas, etc.).
-
-Suporte a temas (claro e escuro).
-
-Cache para melhorar a performance.
-
-Implementação responsiva para dispositivos móveis.
-
-Contribuições
-
-Contribuições são bem-vindas! Sinta-se à vontade para abrir uma issue ou enviar um pull request.
-
-Licença
-
-Este projeto está licenciado sob a MIT License.
-
-Feito com ❤ por Seu Nome.
